@@ -1,0 +1,551 @@
+{
+  "component": {
+    "id": 2,
+    "name": "ct_section",
+    "options": {
+      "ct_id": 2,
+      "ct_parent": 0,
+      "selector": "section-2-814",
+      "original": {
+        "image_type": "2",
+        "attachment_size": "full",
+        "tag": "section",
+        "custom-attributes": [{ "name": "role", "value": "region" }],
+        "conditionspreview": "2",
+        "globalConditionsResult": true
+      },
+      "nicename": "<section> Section",
+      "classes": ["o-height-full", "o-super-centered"],
+      "activeselector": "o-super-centered"
+    },
+    "depth": 1,
+    "children": [
+      {
+        "id": 5,
+        "name": "ct_div_block",
+        "options": {
+          "ct_id": 5,
+          "ct_parent": 2,
+          "selector": "div_block-5-814",
+          "original": {
+            "image_type": "2",
+            "attachment_size": "full",
+            "tag": "div"
+          },
+          "nicename": "<div> Div",
+          "classes": ["o-grid-3", "o-gap-4"],
+          "activeselector": "o-gap-4"
+        },
+        "depth": 2,
+        "children": [
+          {
+            "id": 7,
+            "name": "ct_div_block",
+            "options": {
+              "ct_id": 7,
+              "ct_parent": 5,
+              "selector": "div_block-7-814",
+              "original": {
+                "image_type": "2",
+                "attachment_size": "full",
+                "tag": "article"
+              },
+              "nicename": "<article> Article Div",
+              "classes": ["o-card-2", "o-gap-2", "o-flex-col", "o-relative"],
+              "activeselector": "o-relative"
+            },
+            "depth": 3,
+            "children": [
+              {
+                "id": 9,
+                "name": "ct_headline",
+                "options": {
+                  "ct_id": 9,
+                  "ct_parent": 7,
+                  "selector": "headline-9-814",
+                  "original": {
+                    "image_type": "2",
+                    "attachment_size": "full",
+                    "undefined-unit": "undefined"
+                  },
+                  "nicename": "Heading (#9)",
+                  "ct_content": "Distillery",
+                  "activeselector": false
+                },
+                "depth": 4
+              },
+              {
+                "id": 10,
+                "name": "ct_image",
+                "options": {
+                  "ct_id": 10,
+                  "ct_parent": 7,
+                  "selector": "image-10-814",
+                  "original": {
+                    "image_type": "1",
+                    "attachment_size": "full",
+                    "src": "//picsum.photos/seed/oxyprops.com/640/480",
+                    "null-unit": "undefined"
+                  },
+                  "nicename": "Image (#10)",
+                  "classes": ["o-radius-1", "o-first"],
+                  "activeselector": "o-first"
+                },
+                "depth": 4
+              },
+              {
+                "id": 14,
+                "name": "ct_link",
+                "options": {
+                  "ct_id": 14,
+                  "ct_parent": 7,
+                  "selector": "div_block-14-814",
+                  "original": {
+                    "image_type": "2",
+                    "attachment_size": "full",
+                    "url": "https://oxyprops.com",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer nofollow"
+                  },
+                  "nicename": "Extended Link",
+                  "activeselector": false,
+                  "classes": ["o-absolute", "o-inset-0", "o-layer-important"],
+                  "hover": {
+                    "box-shadow-color": "var(--o-brand)",
+                    "box-shadow-spread": "3",
+                    "box-shadow-inset": "false",
+                    "box-shadow-horizontal-offset": "0",
+                    "box-shadow-vertical-offset": "0",
+                    "box-shadow-blur": "0",
+                    "border-radius": "var(--o-radius-2)",
+                    "border-radius-unit": " "
+                  }
+                },
+                "depth": 4,
+                "children": [
+                  {
+                    "id": 15,
+                    "name": "ct_text_block",
+                    "options": {
+                      "ct_id": 15,
+                      "ct_parent": 14,
+                      "selector": "text_block-15-814",
+                      "original": {
+                        "image_type": "2",
+                        "attachment_size": "full",
+                        "useCustomTag": "true",
+                        "tag": "span"
+                      },
+                      "nicename": "Text SR only",
+                      "ct_content": "This link will take you to oxyprops.com",
+                      "activeselector": "c-sr-only",
+                      "classes": ["c-sr-only"]
+                    },
+                    "depth": 5
+                  }
+                ]
+              },
+              {
+                "id": 11,
+                "name": "ct_text_block",
+                "options": {
+                  "ct_id": 11,
+                  "ct_parent": 7,
+                  "selector": "text_block-11-814",
+                  "original": {
+                    "image_type": "2",
+                    "attachment_size": "full",
+                    "undefined-unit": "undefined",
+                    "tag": "p"
+                  },
+                  "nicename": "Description",
+                  "ct_content": "Mixtape est hashtag butcher adipisicing yr selvage poke nostrud banh mi synth tousled cronut microdosing disrupt.",
+                  "activeselector": false
+                },
+                "depth": 4
+              },
+              {
+                "id": 12,
+                "name": "ct_text_block",
+                "options": {
+                  "ct_id": 12,
+                  "ct_parent": 7,
+                  "selector": "text_block-12-814",
+                  "original": {
+                    "image_type": "2",
+                    "attachment_size": "full",
+                    "color": "var(--o-links)"
+                  },
+                  "nicename": "CTA",
+                  "ct_content": "Learn More »",
+                  "activeselector": false
+                },
+                "depth": 4
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "name": "ct_div_block",
+            "options": {
+              "ct_id": 17,
+              "ct_parent": 5,
+              "selector": "div_block-17-814",
+              "original": {
+                "image_type": "2",
+                "attachment_size": "full",
+                "tag": "article"
+              },
+              "nicename": "<article> Article Div",
+              "classes": ["o-card-2", "o-gap-2", "o-flex-col", "o-relative"],
+              "activeselector": "o-relative"
+            },
+            "depth": 3,
+            "children": [
+              {
+                "id": 18,
+                "name": "ct_headline",
+                "options": {
+                  "ct_id": 18,
+                  "ct_parent": 17,
+                  "selector": "headline-18-814",
+                  "original": {
+                    "image_type": "2",
+                    "attachment_size": "full",
+                    "undefined-unit": "undefined"
+                  },
+                  "nicename": "Heading (#9)",
+                  "ct_content": "Distillery",
+                  "activeselector": false
+                },
+                "depth": 4
+              },
+              {
+                "id": 19,
+                "name": "ct_image",
+                "options": {
+                  "ct_id": 19,
+                  "ct_parent": 17,
+                  "selector": "image-19-814",
+                  "original": {
+                    "image_type": "1",
+                    "attachment_size": "full",
+                    "src": "//picsum.photos/id/200/640/480",
+                    "null-unit": "undefined"
+                  },
+                  "nicename": "Image (#10)",
+                  "classes": ["o-radius-1", "o-first"],
+                  "activeselector": false
+                },
+                "depth": 4
+              },
+              {
+                "id": 20,
+                "name": "ct_link",
+                "options": {
+                  "ct_id": 20,
+                  "ct_parent": 17,
+                  "selector": "link-20-814",
+                  "original": {
+                    "image_type": "2",
+                    "attachment_size": "full",
+                    "url": "https://oxyprops.com",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer nofollow"
+                  },
+                  "nicename": "Extended Link",
+                  "activeselector": false,
+                  "classes": ["o-absolute", "o-inset-0", "o-layer-important"],
+                  "hover": {
+                    "box-shadow-color": "var(--o-brand)",
+                    "box-shadow-spread": "3",
+                    "box-shadow-inset": "false",
+                    "box-shadow-horizontal-offset": "0",
+                    "box-shadow-vertical-offset": "0",
+                    "box-shadow-blur": "0",
+                    "border-radius": "var(--o-radius-2)",
+                    "border-radius-unit": " "
+                  }
+                },
+                "depth": 4,
+                "children": [
+                  {
+                    "id": 21,
+                    "name": "ct_text_block",
+                    "options": {
+                      "ct_id": 21,
+                      "ct_parent": 20,
+                      "selector": "text_block-21-814",
+                      "original": {
+                        "image_type": "2",
+                        "attachment_size": "full",
+                        "useCustomTag": "true",
+                        "tag": "span"
+                      },
+                      "nicename": "Text SR only",
+                      "ct_content": "This link will take you to oxyprops.com",
+                      "activeselector": "c-sr-only",
+                      "classes": ["c-sr-only"]
+                    },
+                    "depth": 5
+                  }
+                ]
+              },
+              {
+                "id": 22,
+                "name": "ct_text_block",
+                "options": {
+                  "ct_id": 22,
+                  "ct_parent": 17,
+                  "selector": "text_block-22-814",
+                  "original": {
+                    "image_type": "2",
+                    "attachment_size": "full",
+                    "undefined-unit": "undefined",
+                    "tag": "p"
+                  },
+                  "nicename": "Description",
+                  "ct_content": "Mixtape est hashtag butcher adipisicing yr selvage poke nostrud banh mi synth tousled cronut microdosing disrupt.",
+                  "activeselector": false
+                },
+                "depth": 4
+              },
+              {
+                "id": 23,
+                "name": "ct_text_block",
+                "options": {
+                  "ct_id": 23,
+                  "ct_parent": 17,
+                  "selector": "text_block-23-814",
+                  "original": {
+                    "image_type": "2",
+                    "attachment_size": "full",
+                    "color": "var(--o-links)"
+                  },
+                  "nicename": "CTA",
+                  "ct_content": "Learn More »",
+                  "activeselector": false
+                },
+                "depth": 4
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "name": "ct_div_block",
+            "options": {
+              "ct_id": 24,
+              "ct_parent": 5,
+              "selector": "div_block-24-814",
+              "original": {
+                "image_type": "2",
+                "attachment_size": "full",
+                "tag": "article"
+              },
+              "nicename": "<article> Article Div",
+              "classes": ["o-card-2", "o-gap-2", "o-flex-col", "o-relative"],
+              "activeselector": "o-relative"
+            },
+            "depth": 3,
+            "children": [
+              {
+                "id": 25,
+                "name": "ct_headline",
+                "options": {
+                  "ct_id": 25,
+                  "ct_parent": 24,
+                  "selector": "headline-25-814",
+                  "original": {
+                    "image_type": "2",
+                    "attachment_size": "full",
+                    "undefined-unit": "undefined"
+                  },
+                  "nicename": "Heading (#9)",
+                  "ct_content": "Distillery",
+                  "activeselector": false
+                },
+                "depth": 4
+              },
+              {
+                "id": 26,
+                "name": "ct_image",
+                "options": {
+                  "ct_id": 26,
+                  "ct_parent": 24,
+                  "selector": "image-26-814",
+                  "original": {
+                    "image_type": "1",
+                    "attachment_size": "full",
+                    "src": "//picsum.photos/id/275/640/480",
+                    "null-unit": "undefined"
+                  },
+                  "nicename": "Image (#10)",
+                  "classes": ["o-radius-1", "o-first"],
+                  "activeselector": false
+                },
+                "depth": 4
+              },
+              {
+                "id": 27,
+                "name": "ct_link",
+                "options": {
+                  "ct_id": 27,
+                  "ct_parent": 24,
+                  "selector": "link-27-814",
+                  "original": {
+                    "image_type": "2",
+                    "attachment_size": "full",
+                    "url": "https://oxyprops.com",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer nofollow"
+                  },
+                  "nicename": "Extended Link",
+                  "activeselector": false,
+                  "classes": ["o-absolute", "o-inset-0", "o-layer-important"],
+                  "hover": {
+                    "box-shadow-color": "var(--o-brand)",
+                    "box-shadow-spread": "3",
+                    "box-shadow-inset": "false",
+                    "box-shadow-horizontal-offset": "0",
+                    "box-shadow-vertical-offset": "0",
+                    "box-shadow-blur": "0",
+                    "border-radius": "var(--o-radius-2)",
+                    "border-radius-unit": " "
+                  }
+                },
+                "depth": 4,
+                "children": [
+                  {
+                    "id": 28,
+                    "name": "ct_text_block",
+                    "options": {
+                      "ct_id": 28,
+                      "ct_parent": 27,
+                      "selector": "text_block-28-814",
+                      "original": {
+                        "image_type": "2",
+                        "attachment_size": "full",
+                        "useCustomTag": "true",
+                        "tag": "span"
+                      },
+                      "nicename": "Text SR only",
+                      "ct_content": "This link will take you to oxyprops.com",
+                      "activeselector": "c-sr-only",
+                      "classes": ["c-sr-only"]
+                    },
+                    "depth": 5
+                  }
+                ]
+              },
+              {
+                "id": 29,
+                "name": "ct_text_block",
+                "options": {
+                  "ct_id": 29,
+                  "ct_parent": 24,
+                  "selector": "text_block-29-814",
+                  "original": {
+                    "image_type": "2",
+                    "attachment_size": "full",
+                    "undefined-unit": "undefined",
+                    "tag": "p"
+                  },
+                  "nicename": "Description",
+                  "ct_content": "Mixtape est hashtag butcher adipisicing yr selvage poke nostrud banh mi synth tousled cronut microdosing disrupt.",
+                  "activeselector": false
+                },
+                "depth": 4
+              },
+              {
+                "id": 30,
+                "name": "ct_text_block",
+                "options": {
+                  "ct_id": 30,
+                  "ct_parent": 24,
+                  "selector": "text_block-30-814",
+                  "original": {
+                    "image_type": "2",
+                    "attachment_size": "full",
+                    "color": "var(--o-links)"
+                  },
+                  "nicename": "CTA",
+                  "ct_content": "Learn More »",
+                  "activeselector": false
+                },
+                "depth": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "classes": {
+    "o-height-full": {
+      "key": "o-height-full",
+      "parent": "OxyProps-Sizes",
+      "original": { "selector-locked": "true" }
+    },
+    "o-super-centered": {
+      "key": "o-super-centered",
+      "parent": "OxyProps-Position",
+      "original": { "selector-locked": "true" }
+    },
+    "o-grid-3": {
+      "key": "o-grid-3",
+      "parent": "OxyProps-Layout",
+      "original": { "selector-locked": "true" }
+    },
+    "o-gap-4": {
+      "key": "o-gap-4",
+      "parent": "OxyProps-Sizes",
+      "original": { "selector-locked": "true" }
+    },
+    "o-card-2": {
+      "key": "o-card-2",
+      "parent": "OxyProps-Cards",
+      "original": { "selector-locked": "true" }
+    },
+    "o-gap-2": {
+      "key": "o-gap-2",
+      "parent": "OxyProps-Sizes",
+      "original": { "selector-locked": "true" }
+    },
+    "o-flex-col": {
+      "key": "o-flex-col",
+      "parent": "OxyProps-Layout",
+      "original": { "selector-locked": "true" }
+    },
+    "o-relative": {
+      "key": "o-relative",
+      "parent": "OxyProps-Position",
+      "original": { "selector-locked": "true" }
+    },
+    "o-radius-1": {
+      "key": "o-radius-1",
+      "parent": "OxyProps-Borders",
+      "original": { "selector-locked": "true" }
+    },
+    "o-first": {
+      "key": "o-first",
+      "parent": "OxyProps-Layout",
+      "original": { "selector-locked": "true" }
+    },
+    "o-absolute": {
+      "key": "o-absolute",
+      "parent": "OxyProps-Position",
+      "original": { "selector-locked": "true" }
+    },
+    "o-inset-0": {
+      "key": "o-inset-0",
+      "parent": "OxyProps-Position",
+      "original": { "selector-locked": "true" }
+    },
+    "o-layer-important": {
+      "key": "o-layer-important",
+      "parent": "OxyProps-Layers",
+      "original": { "selector-locked": "true" }
+    },
+    "c-sr-only": { "original": { "opacity": "0" }, "key": "c-sr-only" }
+  }
+}
