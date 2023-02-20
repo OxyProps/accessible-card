@@ -1,0 +1,365 @@
+{
+  "content": [
+    {
+      "id": "kpuiuv",
+      "name": "div",
+      "parent": 0,
+      "children": ["agnknv"],
+      "settings": {
+        "_cssGlobalClasses": [
+          "oxyprops-o-height-full",
+          "oxyprops-o-super-centered"
+        ],
+        "_display": "grid",
+        "_justifyItemsGrid": "center",
+        "_alignItemsGrid": "center"
+      },
+      "label": "Page Container"
+    },
+    {
+      "id": "agnknv",
+      "name": "div",
+      "parent": "kpuiuv",
+      "children": ["qpkzwq", "prohfo", "qgovyu"],
+      "settings": {
+        "_cssGlobalClasses": ["oxyprops-o-grid-3", "oxyprops-o-gap-4"],
+        "_widthMax": "1180",
+        "_margin": { "left": "auto", "right": "auto" }
+      },
+      "label": "3 Cols Grid"
+    },
+    {
+      "id": "qpkzwq",
+      "name": "div",
+      "parent": "agnknv",
+      "children": ["siovmz", "vmfzvl", "inrnqr", "vslenj", "lzcjan"],
+      "settings": {
+        "_cssGlobalClasses": [
+          "oxyprops-o-card-2",
+          "oxyprops-o-gap-2",
+          "oxyprops-o-flex-col",
+          "oxyprops-o-relative",
+          "oxyprops-o-isolate"
+        ],
+        "tag": "article"
+      },
+      "label": "Accessible Card"
+    },
+    {
+      "id": "siovmz",
+      "name": "heading",
+      "parent": "qpkzwq",
+      "children": [],
+      "settings": { "text": "Intelligentsia" }
+    },
+    {
+      "id": "vmfzvl",
+      "name": "div",
+      "parent": "qpkzwq",
+      "children": ["dnqlkf"],
+      "settings": {
+        "tag": "a",
+        "link": {
+          "type": "external",
+          "url": "https://oxyprops.com",
+          "rel": "noopener noreferrer nofollow"
+        },
+        "_cssGlobalClasses": [
+          "oxyprops-o-absolute",
+          "tisfch",
+          "oxyprops-o-layer-important",
+          "oxyprops-o-radius-2"
+        ],
+        "_boxShadow:hover": {
+          "values": { "spread": "3px" },
+          "color": { "raw": "var(--o-brand)" }
+        }
+      },
+      "label": "Link"
+    },
+    {
+      "id": "dnqlkf",
+      "name": "text-basic",
+      "parent": "vmfzvl",
+      "children": [],
+      "settings": {
+        "text": "This link will take your to the oxyprops website",
+        "_cssGlobalClasses": ["bhxetx"]
+      },
+      "label": "sr-only. text"
+    },
+    {
+      "id": "inrnqr",
+      "name": "image",
+      "parent": "qpkzwq",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "//picsum.photos/seed/oxyprops.com/640/480",
+          "external": true,
+          "filename": "480"
+        },
+        "_cssGlobalClasses": ["oxyprops-o-radius-1", "oxyprops-o-first"],
+        "altText": "A husky standing quietly. It has a harness on its back."
+      }
+    },
+    {
+      "id": "vslenj",
+      "name": "text-basic",
+      "parent": "qpkzwq",
+      "children": [],
+      "settings": {
+        "text": "Mixtape est hashtag butcher adipisicing yr selvage poke nostrud banh mi synth tousled cronut microdosing disrupt.",
+        "tag": "p"
+      },
+      "label": "Description"
+    },
+    {
+      "id": "lzcjan",
+      "name": "text-basic",
+      "parent": "qpkzwq",
+      "children": [],
+      "settings": {
+        "text": "Read More »",
+        "_typography": { "color": { "raw": "var(--o-links)" } },
+        "_attributes": [
+          { "id": "nhcycr", "name": "aria-hidden", "value": "true" }
+        ],
+        "tag": "span"
+      },
+      "label": "CTA"
+    },
+    {
+      "id": "prohfo",
+      "name": "div",
+      "parent": "agnknv",
+      "children": ["phjdpy", "cqlxha", "soljrt", "gxytkc", "xvppso"],
+      "settings": {
+        "_cssGlobalClasses": [
+          "oxyprops-o-card-2",
+          "oxyprops-o-gap-2",
+          "oxyprops-o-flex-col",
+          "oxyprops-o-relative",
+          "oxyprops-o-isolate"
+        ],
+        "tag": "article"
+      },
+      "label": "Accessible Card"
+    },
+    {
+      "id": "phjdpy",
+      "name": "heading",
+      "parent": "prohfo",
+      "children": [],
+      "settings": { "text": "Distillery" }
+    },
+    {
+      "id": "cqlxha",
+      "name": "div",
+      "parent": "prohfo",
+      "children": ["wvduny"],
+      "settings": {
+        "tag": "a",
+        "link": {
+          "type": "external",
+          "url": "https://oxyprops.com",
+          "rel": "noopener noreferrer nofollow"
+        },
+        "_cssGlobalClasses": [
+          "oxyprops-o-absolute",
+          "tisfch",
+          "oxyprops-o-layer-important",
+          "oxyprops-o-radius-2"
+        ],
+        "_boxShadow:hover": {
+          "values": { "spread": "3px" },
+          "color": { "raw": "var(--o-brand)" }
+        }
+      },
+      "label": "Link"
+    },
+    {
+      "id": "wvduny",
+      "name": "text-basic",
+      "parent": "cqlxha",
+      "children": [],
+      "settings": {
+        "text": "This link will take your to the oxyprops website",
+        "_cssGlobalClasses": ["bhxetx"]
+      },
+      "label": "sr-only. text"
+    },
+    {
+      "id": "soljrt",
+      "name": "image",
+      "parent": "prohfo",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "//picsum.photos/id/200/640/480",
+          "external": true,
+          "filename": "480"
+        },
+        "_cssGlobalClasses": ["oxyprops-o-radius-1", "oxyprops-o-first"],
+        "altText": "A highland cow standing quietly staring at the loch."
+      }
+    },
+    {
+      "id": "gxytkc",
+      "name": "text-basic",
+      "parent": "prohfo",
+      "children": [],
+      "settings": {
+        "text": "It man braid bicycle rights, raw denim knausgaard consectetur hashtag jianbing adaptogen brunch tempor.",
+        "tag": "p"
+      },
+      "label": "Description"
+    },
+    {
+      "id": "xvppso",
+      "name": "text-basic",
+      "parent": "prohfo",
+      "children": [],
+      "settings": {
+        "text": "Read More »",
+        "_typography": { "color": { "raw": "var(--o-links)" } },
+        "_attributes": [
+          { "id": "nhcycr", "name": "aria-hidden", "value": "true" }
+        ],
+        "tag": "span"
+      },
+      "label": "CTA"
+    },
+    {
+      "id": "qgovyu",
+      "name": "div",
+      "parent": "agnknv",
+      "children": ["jelwfr", "mfoejz", "bqgdih", "afphlm", "sooccw"],
+      "settings": {
+        "_cssGlobalClasses": [
+          "oxyprops-o-card-2",
+          "oxyprops-o-gap-2",
+          "oxyprops-o-flex-col",
+          "oxyprops-o-relative",
+          "oxyprops-o-isolate"
+        ],
+        "tag": "article"
+      },
+      "label": "Accessible Card"
+    },
+    {
+      "id": "jelwfr",
+      "name": "heading",
+      "parent": "qgovyu",
+      "children": [],
+      "settings": { "text": "Wayfarers" }
+    },
+    {
+      "id": "mfoejz",
+      "name": "div",
+      "parent": "qgovyu",
+      "children": ["tedekk"],
+      "settings": {
+        "tag": "a",
+        "link": {
+          "type": "external",
+          "url": "https://oxyprops.com",
+          "rel": "noopener noreferrer nofollow"
+        },
+        "_cssGlobalClasses": [
+          "oxyprops-o-absolute",
+          "tisfch",
+          "oxyprops-o-layer-important",
+          "oxyprops-o-radius-2"
+        ],
+        "_boxShadow:hover": {
+          "values": { "spread": "3px" },
+          "color": { "raw": "var(--o-brand)" }
+        }
+      },
+      "label": "Link"
+    },
+    {
+      "id": "tedekk",
+      "name": "text-basic",
+      "parent": "mfoejz",
+      "children": [],
+      "settings": {
+        "text": "This link will take your to the oxyprops website",
+        "_cssGlobalClasses": ["bhxetx"]
+      },
+      "label": "sr-only. text"
+    },
+    {
+      "id": "bqgdih",
+      "name": "image",
+      "parent": "qgovyu",
+      "children": [],
+      "settings": {
+        "image": {
+          "url": "//picsum.photos/id/275/640/480",
+          "external": true,
+          "filename": "480"
+        },
+        "_cssGlobalClasses": ["oxyprops-o-radius-1", "oxyprops-o-first"],
+        "altText": "A highland cow standing quietly staring at the loch."
+      }
+    },
+    {
+      "id": "afphlm",
+      "name": "text-basic",
+      "parent": "qgovyu",
+      "children": [],
+      "settings": {
+        "text": "Aliquip viral portland cupidatat pug, cold-pressed ipsum proident normcore ennui ea reprehenderit.  Cornhole cillum bushwick.",
+        "tag": "p"
+      },
+      "label": "Description"
+    },
+    {
+      "id": "sooccw",
+      "name": "text-basic",
+      "parent": "qgovyu",
+      "children": [],
+      "settings": {
+        "text": "Read More »",
+        "_typography": { "color": { "raw": "var(--o-links)" } },
+        "_attributes": [
+          { "id": "nhcycr", "name": "aria-hidden", "value": "true" }
+        ],
+        "tag": "span"
+      },
+      "label": "CTA"
+    }
+  ],
+  "source": "bricksCopiedElements",
+  "sourceUrl": "https://oxyprops-pro.test",
+  "version": "1.7-beta",
+  "globalClasses": [
+    { "id": "oxyprops-o-height-full", "name": "o-height-full", "settings": [] },
+    {
+      "id": "oxyprops-o-super-centered",
+      "name": "o-super-centered",
+      "settings": []
+    },
+    { "id": "oxyprops-o-grid-3", "name": "o-grid-3", "settings": [] },
+    { "id": "oxyprops-o-gap-4", "name": "o-gap-4", "settings": [] },
+    { "id": "oxyprops-o-card-2", "name": "o-card-2", "settings": [] },
+    { "id": "oxyprops-o-gap-2", "name": "o-gap-2", "settings": [] },
+    { "id": "oxyprops-o-flex-col", "name": "o-flex-col", "settings": [] },
+    { "id": "oxyprops-o-relative", "name": "o-relative", "settings": [] },
+    { "id": "oxyprops-o-isolate", "name": "o-isolate", "settings": [] },
+    { "id": "oxyprops-o-absolute", "name": "o-absolute", "settings": [] },
+    { "id": "tisfch", "name": "o-inset-0", "settings": [] },
+    {
+      "id": "oxyprops-o-layer-important",
+      "name": "o-layer-important",
+      "settings": []
+    },
+    { "id": "oxyprops-o-radius-2", "name": "o-radius-2", "settings": [] },
+    { "id": "bhxetx", "name": "c-sr-only", "settings": { "_opacity": "0" } },
+    { "id": "oxyprops-o-radius-1", "name": "o-radius-1", "settings": [] },
+    { "id": "oxyprops-o-first", "name": "o-first", "settings": [] }
+  ],
+  "globalElements": []
+}
